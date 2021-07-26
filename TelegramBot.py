@@ -3,10 +3,10 @@ from telebot import types
 import mysql.connector
 
 bot = telebot.TeleBot('1842647494:AAF-G-Ow699iRD3Ro9QcN00qTjKrZB0ae8w')
-mHost="remotemysql.com"
-mUser="qGVI1BzGNZ"
-mPswrd="SNo79VAWUF"
-mDb="qGVI1BzGNZ"
+mHost="******"
+mUser="******"
+mPswrd="******"
+mDb="******"
 adminChatID = 167167421 #person who receives notifications when new questions are asked. Must have active chat with bot
 
 question = None
